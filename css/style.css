@@ -58,7 +58,7 @@ ul{
 .container {
     width: 80%;
     max-width: 1200px;
-    margin: 20px auto 0;
+    margin: 4em auto 0;
 }
 
 .row {
@@ -121,18 +121,35 @@ ul{
 }
 /* FOOTER */
 footer{
-    background-color: lightcoral;
+    background-color:rgb(26 26 26);
     max-width: 1200px;
     width: 100%;
 }
 .nav-footer{
-    
-    flex-direction: row;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
     justify-content: space-between;
-    padding-top: .8em;
-    padding-bottom: .8em;
+    align-items: center;
+
+    height: 70px;
+}
+.linkers ul li a {
+    flex-direction: row;
+    margin-right: .5em;
+    font-size: 12px;
 }
 
+.socials ul li a {
+    flex-direction: row;
+    margin-right: .5em;
+}
+
+.text-white{
+    color: white;
+}
+
+/* Layout */
 .white{
     background-color: white;
     padding: .7em;
@@ -144,10 +161,3 @@ footer{
     font-size: larger;
 }
 
-.linkers ul li a {
-    flex-direction: row;
-}
-
-.socials ul li a {
-    flex-direction: row;
-}
