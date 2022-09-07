@@ -27,28 +27,36 @@ ul{
     width: 100%;
     flex-direction: row;
     /* DEBUG */
-    height: 50px;
     background-color:rgb(251 102 27)
 
 }
 
 .navbar{
-    background-color: lightgrey;
     width: 70%;
+    max-width: 1200px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    /* DEBUG */
-    height: 30px;
+    align-items: center;
+
+    height: 70px;
 }
 
 .navbar ul{
     display: flex;
 }
+.navbar ul li a{
+    margin-right: 1em;
+}
 
+.navbar img{
+    justify-self: center;
+    width: 130px;
+}
 /* MAIN */
 .main-container{
     width: 70%;
+    max-width: 1200px;
     margin: 3em auto 3em;
 
     /* DEBUG */
@@ -81,17 +89,17 @@ div.col{
 }
 
 /* FOOTER */
-
-.nav-footer{
+footer{
     background-color: lightcoral;
+    max-width: 1200px;
     width: 100%;
+}
+.nav-footer{
+    
     flex-direction: row;
     justify-content: space-between;
     padding-top: .8em;
-    padding-bottom: 3em;
-
-    /* DEBUG */
-    height: 60px;
+    padding-bottom: .8em;
 }
 
 .linkers ul li a {
