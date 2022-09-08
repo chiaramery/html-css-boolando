@@ -126,7 +126,6 @@ ul{
 /* FOOTER */
 footer{
     background-color:rgb(26 26 26);
-    max-width: 1200px;
     width: 100%;
 }
 .nav-footer{
@@ -135,7 +134,6 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     height: 70px;
 }
 .linkers ul li a {
