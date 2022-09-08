@@ -26,7 +26,10 @@ ul{
 .header-container{
     width: 100%;
     flex-direction: row;
-    background-color:rgb(251 102 27)
+    background-color:rgb(251 102 27);
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 .navbar{
@@ -38,7 +41,6 @@ ul{
     align-items: center;
     height: 70px;
 }
-
 .navbar ul{
     display: flex;
 }
@@ -54,7 +56,7 @@ ul{
 .container {
     width: 80%;
     max-width: 1200px;
-    margin: 4em auto 0;
+    margin: 8em auto 0;
 }
 
 .row {
