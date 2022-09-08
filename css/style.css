@@ -26,9 +26,7 @@ ul{
 .header-container{
     width: 100%;
     flex-direction: row;
-    /* DEBUG */
     background-color:rgb(251 102 27)
-
 }
 
 .navbar{
@@ -38,9 +36,7 @@ ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     height: 70px;
-    background-color:rgb(251 102 27)
 }
 
 .navbar ul{
@@ -87,6 +83,12 @@ ul{
     color: white;
     font-size: small;
     padding: 1.5px;
+}
+
+ .left{
+    position: absolute;
+    bottom: 3em;
+    left: 0;
 }
 /* sale */
 .sale{
