@@ -175,5 +175,16 @@ footer{
     height: 200px;
 }
 
+.row{
+    position: relative;
+}
 
+.hover{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
 
+.card:hover .hover {
+    display: none;
+}
